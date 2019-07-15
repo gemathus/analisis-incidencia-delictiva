@@ -3,7 +3,7 @@ import geopandas as gpd
 from shapely.geometry import Point, Polygon
 import descartes
 print("1/6 Leyendo archivo de cuadrantes...")
-cuadrantes = gpd.read_file('../data/cuadrantes/cuadrantes.shp')
+cuadrantes = gpd.read_file('../shape_files/cuadrantes_con_poblacion/cuadrantes_con_poblacion.shp')
 
 print("2/6 Leyendo carpetas de investigación del 2016 al 2019...")
 carpetas = pd.read_csv('../data/carpetas_2016_2019.csv', sep=";")
