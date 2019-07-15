@@ -3,4 +3,6 @@ data
 data/*
 .ipynb_checkpoints/
 .ipynb_checkpoints
+ignorar_en_repo/
+shape_files/
 
